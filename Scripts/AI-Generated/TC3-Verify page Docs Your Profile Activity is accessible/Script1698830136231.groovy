@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page docs setting-up-your-feed advanced-filtering-'
+'step 1: Navigate to Page docs your-profile activity'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page docs setting-up-your-feed advanced-filtering-'
+'step 2: Add visual checkpoint at Page docs your-profile activity'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Advanced Filtering Setup for Feed in Documentation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify page Docs Your Profile Activity is accessible_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

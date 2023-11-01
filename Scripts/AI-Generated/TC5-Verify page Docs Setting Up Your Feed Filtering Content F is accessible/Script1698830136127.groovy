@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page docs getting-started browser-extension-instal'
+'step 1: Navigate to Page docs setting-up-your-feed filtering-content-f'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page docs getting-started browser-extension-instal'
+'step 2: Add visual checkpoint at Page docs setting-up-your-feed filtering-content-f'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Browser Extension Installation for Getting Started in Documentation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify page Docs Setting Up Your Feed Filtering Content F is accessible_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

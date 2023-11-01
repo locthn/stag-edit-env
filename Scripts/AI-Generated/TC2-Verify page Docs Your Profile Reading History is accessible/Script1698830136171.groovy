@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page docs getting-started pwa'
+'step 1: Navigate to Page docs your-profile reading-history'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page docs getting-started pwa'
+'step 2: Add visual checkpoint at Page docs your-profile reading-history'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Getting Started with Progressive Web Apps in Documentation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify page Docs Your Profile Reading History is accessible_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
