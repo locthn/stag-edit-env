@@ -2,21 +2,21 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'''qeautomation'''</initValue>
+        <initValue>'qeautomation'</initValue>
         <name>username</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'''qeautomation123@'''</initValue>
+        <initValue>'qeautomation123@'</initValue>
         <name>password</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'''https://docs.daily.dev'''</initValue>
+        <initValue>'https://docs.daily.dev'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>default16988283</name>
+    <name>default16988306</name>
     <tag></tag>
 </GlobalVariableEntities>

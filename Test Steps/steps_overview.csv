@@ -1,16 +1,16 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify page Docs Intro is accessible from page Home,"step 1: Navigate to Page home
+1,Verify Documentation Introduction Page,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink docs intro --> navigate to Page docs intro
 step 3: Add visual checkpoint at Page docs intro",High
-4,Verify page Docs Setting Up Your Feed Advanced Filtering is accessible,"step 1: Navigate to Page docs setting-up-your-feed advanced-filtering-
+4,Verify Setting up Advanced Filtering for Feed in Documentation,"step 1: Navigate to Page docs setting-up-your-feed advanced-filtering-
 step 2: Add visual checkpoint at Page docs setting-up-your-feed advanced-filtering-",Medium
-5,Verify page Docs Setting Up Your Feed Filtering Content F is accessible,"step 1: Navigate to Page docs setting-up-your-feed filtering-content-f
-step 2: Add visual checkpoint at Page docs setting-up-your-feed filtering-content-f",Low
-2,Verify page Docs Your Profile Reading History is accessible,"step 1: Navigate to Page docs your-profile reading-history
-step 2: Add visual checkpoint at Page docs your-profile reading-history",Low
-6,Verify page Docs Getting Started Pwa is accessible,"step 1: Navigate to Page docs getting-started pwa
+6,Verify Getting Started with Progressive Web Apps in Documentation,"step 1: Navigate to Page docs getting-started pwa
 step 2: Add visual checkpoint at Page docs getting-started pwa",Low
-7,Verify page Docs Getting Started Browser Extension Instal is accessible,"step 1: Navigate to Page docs getting-started browser-extension-instal
-step 2: Add visual checkpoint at Page docs getting-started browser-extension-instal",Low
-3,Verify page Docs Your Profile Activity is accessible,"step 1: Navigate to Page docs your-profile activity
+3,Verify User s Profile Activity in Documentation,"step 1: Navigate to Page docs your-profile activity
 step 2: Add visual checkpoint at Page docs your-profile activity",Low
+2,Verify User s Profile Reading History in Documentation,"step 1: Navigate to Page docs your-profile reading-history
+step 2: Add visual checkpoint at Page docs your-profile reading-history",Low
+7,Verify Installing Browser Extension for Getting Started in Documentation,"step 1: Navigate to Page docs getting-started browser-extension-instal
+step 2: Add visual checkpoint at Page docs getting-started browser-extension-instal",Low
+5,Verify Filtering Content in User s Feed in Documentation,"step 1: Navigate to Page docs setting-up-your-feed filtering-content-f
+step 2: Add visual checkpoint at Page docs setting-up-your-feed filtering-content-f",Low

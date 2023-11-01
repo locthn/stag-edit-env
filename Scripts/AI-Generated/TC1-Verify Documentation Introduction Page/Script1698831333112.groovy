@@ -31,7 +31,7 @@ WebUI.enhancedClick(testObj)
 
 'step 3: Add visual checkpoint at Page docs intro'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify page Docs Intro is accessible from page Home_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Documentation Introduction Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

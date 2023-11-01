@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page docs getting-started browser-extension-instal'
+'step 1: Navigate to Page docs your-profile reading-history'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page docs getting-started browser-extension-instal'
+'step 2: Add visual checkpoint at Page docs your-profile reading-history'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify page Docs Getting Started Browser Extension Instal is accessible_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify User s Profile Reading History in Documentation_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

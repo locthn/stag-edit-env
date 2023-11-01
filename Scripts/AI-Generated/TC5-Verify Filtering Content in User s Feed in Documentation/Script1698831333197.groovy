@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page docs setting-up-your-feed filtering-content-f'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify page Docs Setting Up Your Feed Filtering Content F is accessible_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Filtering Content in User s Feed in Documentation_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
