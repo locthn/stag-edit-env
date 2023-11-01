@@ -1,5 +1,5 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page docs getting-started browser-extension-instal'
+'step 1: Navigate to Page docs setting-up-your-feed advanced-filtering-'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page docs getting-started browser-extension-instal'
+'step 2: Add visual checkpoint at Page docs setting-up-your-feed advanced-filtering-'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Successful Navigation to Docs Getting Started Browser Extension Installation Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Advanced Filtering Setup for Feed in Documentation_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
