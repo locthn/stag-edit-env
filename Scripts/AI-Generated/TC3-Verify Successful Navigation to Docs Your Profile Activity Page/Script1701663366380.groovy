@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -11,11 +11,11 @@ def setup() {
 
 'step 1: Navigate to Page docs your-profile activity'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/docs/your-profile/activity')
 
 'step 2: Add visual checkpoint at Page docs your-profile activity'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify User s Profile Activity in Documentation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Successful Navigation to Docs Your Profile Activity Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

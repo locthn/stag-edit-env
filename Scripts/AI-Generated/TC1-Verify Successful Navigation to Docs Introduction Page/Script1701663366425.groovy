@@ -1,6 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
@@ -17,7 +17,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
 'step 2: At Page home click on hyperlink docs intro --> navigate to Page docs intro'
 
-testObj = findTestObject('Object Repository/Page_home/hyperlink_docs_intro')
+testObj = findTestObject('AI-Generated/Page_home/hyperlink_docs_intro')
 
 WebUI.delay(3)
 
@@ -25,13 +25,13 @@ WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
+WebUI.verifyMatch(WebUI.getUrl(), '.*//?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
 'step 3: Add visual checkpoint at Page docs intro'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Page Introduction to Documentation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to Docs Introduction Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

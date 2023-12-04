@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -11,11 +11,11 @@ def setup() {
 
 'step 1: Navigate to Page docs getting-started pwa'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/docs/getting-started/pwa')
 
 'step 2: Add visual checkpoint at Page docs getting-started pwa'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Getting Started with Progressive Web App in Documentation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Successful Navigation to Docs Getting Started PWA Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
