@@ -15,8 +15,8 @@
         <initValue>'https://docs.daily.dev'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>default17016628</name>
+    <name>default17035660</name>
     <tag></tag>
 </GlobalVariableEntities>
